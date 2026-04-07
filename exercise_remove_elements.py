@@ -1,9 +1,10 @@
 # Ejercicio 4: Remover elementos en posiciones específicas
 
 def remove_elements(lista):
-    if lista != []:
-        del lista [0]
-        del lista [4:6]
-        return lista
-    else:
-        return lista
+    if len(lista) >= 6:
+        del lista[5]
+    if len(lista) >= 5:
+        del lista [4]
+    if len(lista) > 0:
+        del lista[0]
+    return lista

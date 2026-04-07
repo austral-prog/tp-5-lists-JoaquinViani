@@ -1,9 +1,9 @@
 # Ejercicio 9: Verificar si una lista está vacía
 
 def is_empty(lista):
-    if lista != []:
-        return "false"
-    else: 
-        return "true"
+    if lista == 0:
+        return False
+    
+    return True
     
 

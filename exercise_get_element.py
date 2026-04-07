@@ -2,6 +2,6 @@
 
 def get_element(lista, indice):
     if indice < 3:
-        print(lista[indice])
+        return lista[indice]
     else:
-        print("none")
+        return "none"

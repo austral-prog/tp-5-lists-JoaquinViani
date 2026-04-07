@@ -4,6 +4,6 @@ def remove_elements(lista):
     if lista != []:
         del lista [0]
         del lista [4:6]
-        print(lista)
+        return lista
     else:
-        print(lista)
+        return lista

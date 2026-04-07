@@ -1,7 +1,7 @@
 # Ejercicio 11: Comparar tercer elemento de dos listas
 
 def check_lists(lista1, lista2):
-    if len(lista1) > 2 and len(lista2) > 2 and lista1[2] == lista2[2]:
-        return "true"
-    else:
-        return "false"
+    if len(lista1) < 3 or len(lista2) < 3:
+        return False
+    
+    return lista1[2] == lista2[2]

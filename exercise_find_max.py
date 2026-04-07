@@ -1,8 +1,8 @@
 # Ejercicio 5: Encontrar el máximo en una lista
 
-def find_max(lista):
-    if lista != []:
-        return max(lista)
+def find_min(lista):
+    if len(lista) == 0:
+        return None
     else:
-        return lista
+        return max(lista)
     

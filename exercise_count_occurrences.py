@@ -1,14 +1,8 @@
 # Ejercicio 7: Contar ocurrencias de un elemento
 
 def count_occurrences(lista, elemento):
-    """
-    Cuenta cuántas veces aparece un elemento en la lista.
+        print(lista.count(elemento))
 
-    Args:
-        lista: Una lista de elementos
-        elemento: El elemento a buscar
-
-    Returns:
-        Un entero con la cantidad de veces que aparece el elemento
-    """
-    pass  # Reemplazar con tu implementación
+count_occurrences([1, 2, 2, 3, 2, 4], 2)
+count_occurrences([1, 2, 3, 4, 5], 10)
+count_occurrences(["red", "blue", "red", "green", "red"], "red")
